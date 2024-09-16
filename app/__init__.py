@@ -6,6 +6,7 @@ import firebase_admin
 from firebase_admin import credentials, firestore, storage
 from app.routes import user_routes, auth_routes
 from app.routes import boletin_routes
+from app.routes import about_routes, anuncios_routes
 
 def create_app():
     app = Flask(__name__)
@@ -40,6 +41,8 @@ def create_app():
     app.register_blueprint(user_routes.bp)
     app.register_blueprint(auth_routes.bp)
     app.register_blueprint(boletin_routes.bp)
+    app.register_blueprint(about_routes.bp)
+    app.register_blueprint(anuncios_routes.bp)
 
     # Hacer que la base de datos esté disponible en todo el proyecto
     app.db = db
