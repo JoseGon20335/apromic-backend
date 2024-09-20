@@ -65,7 +65,9 @@ Las principales dependencias de este proyecto son:
 ## Colaboradores
 
 - **Tu Nombre:** Desarrollador principal.
-- *(Añadir más colaboradores si los hay).*
+- Jose Miguel Gonzalez y Gonzalez
+- Luis Diego Santos Cuellar
+- 
 
 ## Notas
 
