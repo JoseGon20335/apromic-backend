@@ -4,3 +4,4 @@ Flask-Migrate
 Flask-Restful
 python-dotenv
 firebase-admin
+pyjwt
